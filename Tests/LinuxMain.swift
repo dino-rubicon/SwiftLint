@@ -610,6 +610,12 @@ extension ImplicitlyUnwrappedOptionalRuleTests {
     ]
 }
 
+extension IndentationWidthRuleTests {
+    static var allTests: [(String, (IndentationWidthRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
 extension InertDeferRuleTests {
     static var allTests: [(String, (InertDeferRuleTests) -> () throws -> Void)] = [
         ("testWithDefaultConfiguration", testWithDefaultConfiguration)
@@ -1599,6 +1605,7 @@ XCTMain([
     testCase(ImplicitReturnRuleTests.allTests),
     testCase(ImplicitlyUnwrappedOptionalConfigurationTests.allTests),
     testCase(ImplicitlyUnwrappedOptionalRuleTests.allTests),
+    testCase(IndentationWidthRuleTests.allTests),
     testCase(InertDeferRuleTests.allTests),
     testCase(IntegrationTests.allTests),
     testCase(IsDisjointRuleTests.allTests),
