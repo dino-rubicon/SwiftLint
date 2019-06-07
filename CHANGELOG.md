@@ -1,3 +1,24 @@
+## Master
+
+#### Breaking
+
+* None.
+
+#### Experimental
+
+* None.
+
+#### Enhancements
+  
+* Add new indentation opt-in-rule checking for
+  super-basic additive indentation pattern.  
+  [Frederick Pietschmann](https://github.com/fredpi)
+  [#227](https://github.com/realm/SwiftLint/issues/227)
+
+#### Bug Fixes
+
+* None.
+
 ## 0.33.0: Worldwide Dryers Conference
 
 #### Breaking
